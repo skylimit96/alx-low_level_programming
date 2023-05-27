@@ -6,7 +6,7 @@
  * @x: char string
  * Return: Transform decimal number or 0 if it s unconvertable char
  */
-unsigned int binary_to_unsint(const char *x)
+unsigned int binary_to_uint(const char *x)
 {
 	unsigned int tot, pwr;
 	int lenght;
